@@ -1,1 +1,20 @@
 
+1 – As linguagens de programação consistem em conjuntos de regras e símbolos utilizados para formular instruções compreensíveis pelo computador, agindo como intermediárias entre os humanos e as máquinas. Elas possibilitam que programadores expressem lógica e algoritmos de forma entendível para o computador. Cada linguagem possui uma sintaxe única e um conjunto de funcionalidades, adaptando-se a diversas tarefas e ambientes de desenvolvimento de software. Sendo assim, escolhi como linguagens de programação para diferenciar: a Pyton, C++ e Java.
+- Pyton -> esta linguagem pode ser utilizada para diversas tarefas, sendo conhecida por ser de alto nível e de uso geral, por sua facilidade de aprendizado e uso. Muito popular com desenvolvedores de software devido seu ótimo funcionamento com uma linguagem de scripts. Além de tudo, ela é uma linguagem de código aberto, ou seja, permite que os programadores alterem o código-fonte para atender suas necessidades. Podemos citar como alguns usos dessa linguagem: aplicações desktop; automação; ciência de dados; aplicações de deep learning, machine learning e computação científica; dentre outros.
+
+- C++ -> esta linguagem é demasiadamente popular na área de ciências da computação; possui natureza rápida e potente, fazendo com que os programadores criem aplicações com excelente desempenho. Pode ser caracterizada em linguagens tanto de alto, quanto baixo nível, fazendo com que seja versátil a ponto de programar sistemas e permitir abstrações para projetos menores. Podemos citar como alguns usos dessa linguagem: desenvolvimento de videogames; sistemas operacionais; programas de computador; desenvolvimento de aplicativos móveis; entre outros.
+
+- Java -> esta linguagem é caracterizada por ser de alto nível permitindo que os programadores criem qualquer tipo de aplicação com facilidade. Conhecida por sua portabilidade e segurança, acaba sendo demasiadamente utilizada em serviços financeiros. Podemos citar como alguns usos dessa linguagem: desenvolvimento de aplicativos; desenvolvimento móvel; aplicações web, dentre outros. 
+
+a)	- Código Pyton: print(“Olá,  IBMEC!”)
+
+- Código C++ : #include <iostream>
+int main() {
+    std::cout << "Olá, IBMEC!" << std::endl;
+    return 0;
+
+- Código Java: public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Olá, IBMEC!");
+	}
