@@ -1,1 +1,82 @@
+1- Implemente o algoritimo de ordenação Bubble Sort usando Pyton:
 
+def bubble_sort(arr):
+    n = len(arr)
+    
+    for i in range(n):
+       
+        for j in range(0, n-i-1):
+            
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+
+arr = [8, 29, 67, 55, 42, 18, 21]
+bubble_sort(arr)
+print("Array ordenado:")
+print(arr)
+
+Código executado: 
+Array ordenado: [8, 18, 21, 29, 42, 55, 67]
+
+
+* Process exited - Return Code: 0 *
+Press Enter to exit terminal 
+
+2- Implemente um algoritimo que imprima apenas as vogais de uma determinada palavra ou frase:
+
+2.1 - PALAVRA: 
+
+
+palavra = "DIREITO"
+vogais = "AEIOUaeiou"
+
+print("Vogais na palavra 'DIREITO':")
+for letra in palavra:
+    if letra in vogais:
+        print(letra)
+
+Código executado: 
+Vogais na palavra 'DIREITO':
+I
+E
+I
+O
+
+
+* Process exited - Return Code: 0 *
+Press Enter to exit terminal
+
+
+2.2- FRASE: 
+
+
+frase = "Eu estudo direito na faculdade"
+vogais = "AEIOUaeiou"
+
+print("Vogais na frase:")
+for letra in frase:
+    if letra in vogais:
+        print(letra)
+
+
+Código executado: 
+Vogais na frase:
+E
+u
+e
+u
+o
+i
+e
+i
+o
+a
+a
+u
+a
+e
+
+
+* Process exited - Return Code: 0 *
+Press Enter to exit terminal
