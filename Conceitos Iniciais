@@ -1,1 +1,15 @@
+1. Um arquivo, na computação, é uma unidade de armazenamento que contém dados ou informações, 
+organizados de forma estruturada para serem acessados por um programa de computador.
+Os arquivos podem conter diferentes tipos de dados, como texto, imagens, vídeos, código executável, entre outros.
 
+
+2. Uma variável em programação é um nome associado a um local na memória do computador onde dados
+podem ser armazenados e manipulados durante a execução de um programa. As variáveis têm tipos específicos 
+(como inteiros, strings, booleanos, etc.) que determinam o tipo de dados que podem armazenar e as operações
+que podem ser realizadas sobre elas.
+
+3. Um servidor é um sistema de computador ou software especializado projetado para fornecer serviços, recursos
+ou dados a outros programas ou dispositivos, chamados de clientes, em uma rede. Os servidores são configurados 
+para aceitar solicitações, processar essas solicitações e retornar as respostas apropriadas aos clientes. Exemplos
+comuns de servidores incluem servidores web, servidores de banco de dados, servidores de email, entre outros, cada 
+um responsável por fornecer serviços específicos na rede.
