@@ -1,0 +1,7 @@
+import random
+
+def lancar_dado():
+    return random.randint(1, 6)
+
+resultado = lancar_dado()
+print(f"O resultado do lançamento do dado é: {resultado}")
