@@ -1,0 +1,40 @@
+Joãozinho quer comprar o maior número de bombons possível 
+com o dinheiro que tem. Faça funções para: 
+
+a. calcular o número de bombons e o troco, dados o dinheiro e o preço 
+de um bombom.
+
+def calcular_bombons_e_troco(dinheiro, preco_bombom):
+    quantidade_bombons = dinheiro // preco_bombom
+    troco = dinheiro % preco_bombom
+    return quantidade_bombons, troco
+
+dinheiro_total = 25 
+preco_bombom = 2    
+
+quantidade_bombons, troco = calcular_bombons_e_troco(dinheiro_total, preco_bombom)
+
+print(f"Joãozinho pode comprar {quantidade_bombons} bombons.")
+print(f"O troco de Joãozinho será de R${troco:.2f}.")
+
+
+b. calcular quanto Joãozinho terá que pedir para sua mãe para 
+comprar um bombom a mais, dados o dinheiro que ele tem e o 
+preço de um bombom. Utilize a função definida em a. 
+
+
+def calcular_bombons_e_troco(dinheiro, preco_bombom):
+    quantidade_bombons = dinheiro // preco_bombom
+    troco = dinheiro % preco_bombom
+    return quantidade_bombons, troco
+
+def pedir_para_mae(dinheiro, preco_bombom):
+    quantidade_bombons, _ = calcular_bombons_e_troco(dinheiro, preco_bombom)
+    return quantidade_bombons + 1
+
+dinheiro_total = 25  
+preco_bombom = 2
+
+quantidade_bombons = pedir_para_mae(dinheiro_total, preco_bombom)
+print(f"Joãozinho precisará pedir para sua mãe comprar {quantidade_bombons} bombons.")
+
